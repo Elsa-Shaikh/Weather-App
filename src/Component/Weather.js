@@ -11,7 +11,7 @@ import snow_icon from "../Asset/snow.png";
 import { clear } from "@testing-library/user-event/dist/clear";
 
 const Weather = () => {
-  let API_Key = "9c74ef46f7c17fc9e2098009b345b60d";
+  let API_Key = process.env.API_KEY;
   const [weatherIcon, setWeatherIcon] = useState(cloud_icon);
 
   const handleSearch = async () => {
