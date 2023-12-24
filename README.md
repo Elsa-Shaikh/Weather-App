@@ -1,3 +1,12 @@
+# Weather App
+This is a simple Weather App built with ReactJS.
+
+# Technologies
+ReactJS, HTML, CSS
+
+# Weather API
+open weather api (website) for free weather api
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
